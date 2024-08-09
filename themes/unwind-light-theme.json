@@ -12,6 +12,25 @@
     "tokenColors": [
         {
             "scope": [
+                "meta.structure.dictionary.json string.quoted.double.json",
+                "meta.structure.dictionary.json string.quoted.single.json"
+            ],
+            "settings": {
+                "foreground": "#6B447A",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "meta.structure.dictionary.value.json",
+                "meta.structure.array.json"
+            ],
+            "settings": {
+                "foreground": "#60B076"
+            }
+        },
+        {
+            "scope": [
                 "invalid"
             ],
             "settings": {
