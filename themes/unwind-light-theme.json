@@ -1,0 +1,117 @@
+{
+    "name": "Unwind Light",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FFFFFF",
+        "editor.foreground": "#000000",
+        "editor.lineHighlightBackground": "#FEE9FF",
+        "editorCursor.foreground": "#000000",
+        "editor.selectionBackground": "#713A91",
+        "editor.inactiveSelectionBackground": "#D0D0D9"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "invalid"
+            ],
+            "settings": {
+                "foreground": "#60B076",
+                "background": "#9B8E9C"
+            }
+        },
+        {
+            "scope": [
+                "keyword",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#EE74B2",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "constant",
+                "variable"
+            ],
+            "settings": {
+                "foreground": "#6B447A",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": [
+                "entity",
+                "entity.name"
+            ],
+            "settings": {
+                "foreground": "#748FFF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "variable.instance"
+            ],
+            "settings": {
+                "foreground": "#66497A",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#60B076",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "number",
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#748FFF"
+            }
+        },
+        {
+            "scope": [
+                "invalid.deprecated"
+            ],
+            "settings": {
+                "foreground": "#C33258",
+                "fontStyle": "underline",
+                "background": "#9B8E9C"
+            }
+        },
+        {
+            "scope": [
+                "markup.underline"
+            ],
+            "settings": {
+                "foreground": "#C33258",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "foreground": "#809CBF",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#748FFF"
+            }
+        }
+    ]
+}
