@@ -1,9 +1,9 @@
 {
     "name": "unwind-light-vsc",
     "displayName": "Unwind Light",
-    "description": "A very subtle light theme for Visual Studio Code.",
-    "version": "1.1.0",
-    "publisher": "Netzwerg",
+    "description": "A very subtle light theme for VSCode / Cursor.",
+    "version": "1.2.0",
+    "publisher": "Rahel Lüthy",
     "repository": {
         "type": "git",
         "url": "git@github.com:scalable-development/unwind-light-vsc.git"
